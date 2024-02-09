@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1110px;
+  height: 100vh;
+}
+@media screen and (max-width: 767px) {
+  .timeline-container {
+    max-width: 300;
+  }
+}
+.head-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.title {
+  text-align: center;
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 2.7;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 25px;
+  }
+}
+.brief {
+  color: #2b237c;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .brief {
+    font-size: 30px;
+  }
+}
+
+.timeline-card {
+  width: 800px;
+  height: 70vh;
+}
+@media screen and (max-width: 767px) {
+  .timeline-card {
+    width: 450px;
+  }
+}
